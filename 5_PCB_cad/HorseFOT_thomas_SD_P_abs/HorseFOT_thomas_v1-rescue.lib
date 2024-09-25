@@ -1,0 +1,168 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# BSS138PW-SamacSys_Parts
+#
+DEF BSS138PW-SamacSys_Parts Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "BSS138PW-SamacSys_Parts" 450 50 50 H V L CNN
+F2 "SOT65P210X110-3N" 450 -50 50 H I L CNN
+F3 "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-NXP/DSANXP010002286.pdf" 450 -150 50 H I L CNN
+F4 "MOSFET,n-channel,60V,320mA,0.9ohm,SOT323 NXP BSS138PW N-channel MOSFET Transistor, 320 mA, 60 V, 3-Pin SOT-323" 450 -250 50 H I L CNN "Description"
+F5 "1.1" 450 -350 50 H I L CNN "Height"
+F6 "Nexperia" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "BSS138PW" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "N/A" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.com/Search/Refine.aspx?Keyword=N%2FA" 450 -750 50 H I L CNN "Mouser Price/Stock"
+DRAW
+C 250 100 150 0 1 10 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 80 230 120 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# DM3CS-SF-SamacSys_Parts
+#
+DEF DM3CS-SF-SamacSys_Parts J 0 30 Y Y 1 F N
+F0 "J" 1150 300 50 H V L CNN
+F1 "DM3CS-SF-SamacSys_Parts" 1150 200 50 H V L CNN
+F2 "DM3CSSF" 1150 100 50 H I L CNN
+F3 "https://datasheet.lcsc.com/szlcsc/Hirose-HRS-DM3CS-SF_C202111.pdf" 1150 0 50 H I L CNN
+F4 "Memory Card Connectors 8P R/A SMT MICRO SD HINGE PUSH-PULL" 1150 -100 50 H I L CNN "Description"
+F5 "1.83" 1150 -200 50 H I L CNN "Height"
+F6 "Hirose" 1150 -300 50 H I L CNN "Manufacturer_Name"
+F7 "DM3CS-SF" 1150 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "798-DM3CSSF" 1150 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Hirose-Connector/DM3CS-SF?qs=tTj%252BmQ3KZwbB9K5zh89Rcw%3D%3D" 1150 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 1100 100 1100 -700 200 -700 200 100 N
+X DAT2 1 0 0 200 R 50 50 0 0 P
+X CD/DAT3 2 0 -100 200 R 50 50 0 0 P
+X CMD 3 0 -200 200 R 50 50 0 0 P
+X VDD 4 0 -300 200 R 50 50 0 0 P
+X CLK 5 0 -400 200 R 50 50 0 0 P
+X VSS 6 0 -500 200 R 50 50 0 0 P
+X DAT0 7 0 -600 200 R 50 50 0 0 P
+X DAT1 8 1300 0 200 L 50 50 0 0 P
+X MP1 MP1 1300 -100 200 L 50 50 0 0 P
+X MP2 MP2 1300 -200 200 L 50 50 0 0 P
+X MP3 MP3 1300 -300 200 L 50 50 0 0 P
+X MP4 MP4 1300 -400 200 L 50 50 0 0 P
+X MP5 MP5 1300 -500 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# HIH6131-021-001-SamacSys_Parts
+#
+DEF HIH6131-021-001-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 1050 300 50 H V L CNN
+F1 "HIH6131-021-001-SamacSys_Parts" 1050 200 50 H V L CNN
+F2 "HIH6131021001" 1050 100 50 H I L CNN
+F3 "https://sensing.honeywell.com/honeywell-sensing-humidicon-hih6100-series-product-sheet-009059-6-en.pdf" 1050 0 50 H I L CNN
+F4 "Board Mount Humidity Sensors I2C,5 %RH,SOIC-8 SMD HYDROPHOBIC FILTER" 1050 -100 50 H I L CNN "Description"
+F5 "2.055" 1050 -200 50 H I L CNN "Height"
+F6 "Honeywell Sensing and Productivity Solutions" 1050 -300 50 H I L CNN "Manufacturer_Name"
+F7 "HIH6131-021-001" 1050 -400 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+X V_CORE 1 0 0 200 R 50 50 0 0 P
+X VSS 2 0 -100 200 R 50 50 0 0 P
+X SCL 3 0 -200 200 R 50 50 0 0 P
+X SDA 4 0 -300 200 R 50 50 0 0 P
+X AL_H 5 1200 -300 200 L 50 50 0 0 P
+X AL_L 6 1200 -200 200 L 50 50 0 0 P
+X NC 7 1200 -100 200 L 50 50 0 0 N
+X VDD 8 1200 0 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# MS563702BA03-50-SamacSys_Parts
+#
+DEF MS563702BA03-50-SamacSys_Parts IC 0 30 Y Y 1 F N
+F0 "IC" 850 300 50 H V L CNN
+F1 "MS563702BA03-50-SamacSys_Parts" 850 200 50 H V L CNN
+F2 "MS5637_1" 850 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=MS5637-02BA03&DocType=Data+Sheet&DocLang=English&PartCntxt=MS563702BA03-50&DocFormat=pdf" 850 0 50 H I L CNN
+F4 "Sensor Pressure 2bar Barometric SMD MS563702BA03-50, Barometric Pressure Sensor, 1200mbar 0 ??? 3.6 V Output, 4-Pin QFN" 850 -100 50 H I L CNN "Description"
+F5 "TE Connectivity" 850 -300 50 H I L CNN "Manufacturer_Name"
+F6 "MS563702BA03-50" 850 -400 50 H I L CNN "Manufacturer_Part_Number"
+F7 "824-MS563702BA03-50" 850 -500 50 H I L CNN "Mouser Part Number"
+F8 "https://www.mouser.co.uk/ProductDetail/Measurement-Specialties/MS563702BA03-50?qs=ZSTLft15nNCFYZwlCm%2FnTA%3D%3D" 850 -600 50 H I L CNN "Mouser Price/Stock"
+F9 "MS563702BA03-50" 850 -700 50 H I L CNN "Arrow Part Number"
+F10 "https://www.arrow.com/en/products/ms563702ba03-50/te-connectivity?region=nac" 850 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+P 5 0 1 6 200 100 800 100 800 -200 200 -200 200 100 N
+X VDD 1 0 0 200 R 50 50 0 0 W
+X SDA 2 0 -100 200 R 50 50 0 0 P
+X SCL 3 1000 -100 200 L 50 50 0 0 P
+X GND 4 1000 0 200 L 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# TTGO-ESP32-thomas-ttgo-esp32
+#
+DEF TTGO-ESP32-thomas-ttgo-esp32 ESP32-TTGO_vT 0 40 Y Y 1 F N
+F0 "ESP32-TTGO_vT" 100 1500 60 H V C CNN
+F1 "TTGO-ESP32-thomas-ttgo-esp32" 400 -100 60 H V C CNN
+F2 "" 0 0 60 H I C CNN
+F3 "" 0 0 60 H I C CNN
+DRAW
+S 100 1350 800 50 0 1 0 N
+X GND 0 0 250 100 R 50 50 1 1 w
+X GND 0 0 350 100 R 50 50 1 1 w
+X GND 0 0 1150 100 R 50 50 1 1 w
+X GND 0 0 1250 100 R 50 50 1 1 w
+X GND 0 900 250 100 L 50 50 1 1 w
+X 5V 100 900 150 100 L 50 50 1 1 B
+X 12 12 0 450 100 R 50 50 1 1 B
+X 13 13 0 550 100 R 50 50 1 1 B
+X 15 15 0 650 100 R 50 50 1 1 B
+X 17 17 0 850 100 R 50 50 1 1 B
+X 2 2 0 750 100 R 50 50 1 1 B
+X 21_SDA 21 0 1050 100 R 50 50 1 1 B
+X 22_SCL 22 0 950 100 R 50 50 1 1 B
+X 25 25 900 550 100 L 50 50 1 1 B
+X 26 26 900 450 100 L 50 50 1 1 B
+X 27 27 900 350 100 L 50 50 1 1 B
+X 32 32 900 750 100 L 50 50 1 1 B
+X 33 33 900 650 100 L 50 50 1 1 B
+X SVP 36 900 1150 100 L 50 50 1 1 B
+X 37 37 900 1050 100 L 50 50 1 1 B
+X 38 38 900 950 100 L 50 50 1 1 B
+X SVN 39 900 850 100 L 50 50 1 1 B
+X 3.3V 50 0 150 100 R 50 50 1 1 w
+X 3.3V 50 900 1250 100 L 50 50 1 1 w
+ENDDRAW
+ENDDEF
+#
+# press_sensor-ttgo-esp32
+#
+DEF press_sensor-ttgo-esp32 P 0 40 Y Y 1 F N
+F0 "P" 0 150 50 H V C CNN
+F1 "press_sensor-ttgo-esp32" 0 150 50 H V C CNN
+F2 "" 0 150 50 H I C CNN
+F3 "" 0 150 50 H I C CNN
+DRAW
+S -150 300 150 300 0 1 0 N
+S -150 850 -150 300 0 1 0 N
+S -150 850 150 850 0 1 0 N
+S 150 850 150 300 0 1 0 N
+X 1 1 -250 800 100 R 50 50 1 1 B
+X 2 2 -250 650 100 R 50 50 1 1 B
+X 3 3 -250 500 100 R 50 50 1 1 B
+X 4 4 -250 350 100 R 50 50 1 1 B
+ENDDRAW
+ENDDEF
+#
+#End Library

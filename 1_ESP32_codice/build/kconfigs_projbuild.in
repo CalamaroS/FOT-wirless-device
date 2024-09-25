@@ -1,0 +1,5 @@
+source "C:/Users/thoma/OneDrive/Desktop/esp-idf/components/app_update/Kconfig.projbuild"
+source "C:/Users/thoma/OneDrive/Desktop/esp-idf/components/bootloader/Kconfig.projbuild"
+source "C:/Users/thoma/OneDrive/Desktop/esp-idf/components/esptool_py/Kconfig.projbuild"
+source "C:/Users/thoma/OneDrive/Desktop/esp-idf/components/partition_table/Kconfig.projbuild"
+source "C:/Users/thoma/eclipse-workspace/my_app/main/Kconfig.projbuild"

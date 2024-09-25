@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name BCB-rescue)(type Legacy)(uri "C:/Users/thoma/OneDrive/Desktop/PCB Board/HorseFOT/BCB-rescue.lib")(options "")(descr ""))
+  (lib (name microcontrollers)(type Legacy)(uri "C:/Users/thoma/OneDrive/Desktop/PCB Board/HorseFOT/microcontrollers.lib")(options "")(descr ""))
+  (lib (name HorseFOT_thomas_v1-rescue)(type Legacy)(uri ${KIPRJMOD}/HorseFOT_thomas_v1-rescue.lib)(options "")(descr ""))
+)
